@@ -1,0 +1,9 @@
+---
+name: urlwatcher
+version: 1
+cron:
+- description: watch_urls_everyday
+  url: cron_daily.php
+  schedule: every day of month 00:20
+  timezone: Beijing
+...
